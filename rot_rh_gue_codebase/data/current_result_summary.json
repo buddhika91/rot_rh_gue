@@ -1,0 +1,30 @@
+{
+  "status": "finite-GUE arithmetic-disruption benchmark passed; pooled Gaussian-including benchmark near-lock",
+  "main_operator": "LOCK_bgeom_best_W012_088_L13",
+  "operator": {
+    "build_mode": "bgeom_mix",
+    "A": 2.20,
+    "beta": 1.35,
+    "gamma": 0.55,
+    "dx_mix": 0.10,
+    "smooth_mix": 0.25,
+    "diag_scale": 0.04,
+    "offdiag_scale": 0.85,
+    "edge_taper": 0.25,
+    "window": [0.12, 0.88],
+    "local_width": 13
+  },
+  "endpoint_run": {
+    "N_list": [20000, 24000, 28000, 32000, 36000, 40000, 44000, 48000, 56000, 64000, 80000, 96000],
+    "jacobi_dims": [64, 96, 128, 160, 192, 224],
+    "controls": 32,
+    "seed": 2027
+  },
+  "control_family_results": {
+    "arithmetic_disrupted": {"minPos": "12/12", "meanPos": "12.00/12", "minKSz": 0.218, "meanKSz": 2.159},
+    "phase_scramble": {"minPos": "12/12", "meanPos": "12.00/12", "minKSz": 0.467, "meanKSz": 2.477},
+    "permuted": {"minPos": "12/12", "meanPos": "12.00/12", "minKSz": 0.312, "meanKSz": 2.273},
+    "all_controls": {"minPos": "11/12", "meanPos": "11.83/12", "minKSz": -0.035, "meanKSz": 1.363},
+    "gaussian": {"minPos": "6/12", "meanPos": "8.50/12", "minKSz": -1.247, "meanKSz": 0.399}
+  }
+}
