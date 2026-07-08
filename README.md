@@ -1,6 +1,6 @@
 # ROT RH / Reflected Mangoldt–Stieltjes Finite-GUE Operator
 
-Project Status (2026-07-07)
+Project Status
 
 This repository is still under active construction. The current ROT–RH–GUE shows promising structure and passes several adversarial/control tests, but it does not yet fully defeat Gaussian universality. That remains the main open benchmark I am working on.
 
