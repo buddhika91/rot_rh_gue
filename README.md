@@ -2,7 +2,7 @@
 
 Project Status (2026-07-07)
 
-This repository is still under active construction. The current ROT–RH–GUE codebase shows promising structure and passes several adversarial/control tests, but it does not yet fully defeat Gaussian universality. That remains the main open benchmark I am working on.
+This repository is still under active construction. The current ROT–RH–GUE shows promising structure and passes several adversarial/control tests, but it does not yet fully defeat Gaussian universality. That remains the main open benchmark I am working on.
 
 Until that is resolved, researchers and reviewers can use this repository to test the rest of the framework, including the operator construction, prime/Mangoldt structure, S-fraction recursion, control-family comparisons, and finite GUE-spacing diagnostics.
 
