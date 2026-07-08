@@ -1,13 +1,5 @@
 # ROT RH / Reflected Mangoldt–Stieltjes Finite-GUE Operator
 
-Project Status
-
-This repository is still under active construction. The current ROT–RH–GUE shows promising structure and passes several adversarial/control tests, but it does not yet fully defeat Gaussian universality. That remains the main open benchmark I am working on.
-
-Until that is resolved, researchers and reviewers can use this repository to test the rest of the framework, including the operator construction, prime/Mangoldt structure, S-fraction recursion, control-family comparisons, and finite GUE-spacing diagnostics.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------
-
 A reproducible Python codebase for constructing and falsifying a finite-dimensional arithmetic Jacobi operator whose local eigenvalue spacing matches the Gaussian Unitary Ensemble (GUE) benchmark across blind Riemann-prime scales.
 
 > **Status:** finite-GUE computational benchmark candidate.  
